@@ -1,4 +1,4 @@
-package v1;
+package v1.viri;
 
 import com.kumuluz.ee.discovery.annotations.RegisterService;
 

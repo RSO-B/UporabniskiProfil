@@ -1,4 +1,4 @@
-package v1;
+package v1.viri;
 
 import beans.UporabnikBeans;
 import entities.Uporabnik;
