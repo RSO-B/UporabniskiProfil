@@ -6,6 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="uporabniskiProfil-api" />
+        <module name="uporabniskiProfil-model" />
+        <module name="uporabniskiProfil-services" />
         <module name="uporabniskiProfilapi" />
         <module name="uporabniskiProfilmodel" />
         <module name="uporabniskiProfilservices" />

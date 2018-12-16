@@ -1,13 +1,17 @@
 package v1.viri;
 
 import beans.UporabnikBeans;
+import com.kumuluz.ee.rest.beans.QueryParameters;
+import com.kumuluz.ee.rest.utils.JPAUtils;
 import entities.Uporabnik;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import javax.ws.rs.*;
+import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import javax.ws.rs.core.UriInfo;
 import java.util.List;
 
 @RequestScoped
@@ -19,11 +23,18 @@ public class UporabnikResources {
     @Inject
     private UporabnikBeans uporabnikBeans;
 
+    @Context
+    private UriInfo uriInfo;
+
     @GET
     public Response getUporabnikList(){
-        List<Uporabnik> uporabnikList = uporabnikBeans.getUporabnikList();
-        return Response.ok(uporabnikList).build();
+        QueryParameters query = QueryParameters.query(uriInfo.getRequestUri().getQuery()).build();
+
+        List<Uporabnik> uporabnikList = uporabnikBeans.getUporabnikList(query);
+        Long count = uporabnikBeans.getUporabnikCount(query);
+        return Response.ok(uporabnikList).header("X-Total-Count", count).build();
     }
+
 
     @GET
     @Path("/{id}")
@@ -45,7 +56,7 @@ public class UporabnikResources {
                 || uporabnik.getLastName().isEmpty())) {
             return Response.status(Response.Status.BAD_REQUEST).build();
         } else {
-            uporabnik = uporabnikBeans.createUporabnik(uporabnik);
+            uporabnikBeans.createUporanmik(uporabnik);
         }
 
         if (uporabnik.getId() != null) {

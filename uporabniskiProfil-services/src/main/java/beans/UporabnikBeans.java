@@ -1,15 +1,18 @@
 package beans;
 
+import com.kumuluz.ee.rest.beans.QueryParameters;
+import com.kumuluz.ee.rest.utils.JPAUtils;
 import entities.Uporabnik;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
+import javax.transaction.Transactional;
 import javax.ws.rs.NotFoundException;
+import javax.ws.rs.client.Client;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -19,7 +22,7 @@ public class UporabnikBeans {
 
     private final static Logger LOGGER = Logger.getLogger(UporabnikBeans.class.getName());
 
-    @Inject
+    @PersistenceContext(unitName = "uporabnik-jpa")
     private EntityManager em;
 
     @PostConstruct
@@ -32,12 +35,15 @@ public class UporabnikBeans {
         LOGGER.log(Level.INFO, "Uničenje UporabnikZrno zrno");
     }
 
-    public List<Uporabnik> getUporabnikList() {
+    public List<Uporabnik> getUporabnikList(QueryParameters query) {
 
-        TypedQuery<Uporabnik> query = em.createNamedQuery("uporabnik.getAll", Uporabnik.class);
+        List<Uporabnik> uporabnikList  = JPAUtils.queryEntities(em, Uporabnik.class, query);
 
-        return query.getResultList();
+        return uporabnikList;
+    }
+    public Long getUporabnikCount(QueryParameters query) {
 
+        return JPAUtils.queryEntitiesCount(em, Uporabnik.class, query);
     }
 
     public Uporabnik getUporabnik(Integer id) {
@@ -51,17 +57,11 @@ public class UporabnikBeans {
         return uporabnik;
     }
 
-    public Uporabnik createUporabnik(Uporabnik uporabnik) {
-
-        try {
-            beginTx();
-            em.persist(uporabnik);
-            commitTx();
-        } catch (Exception e) {
-            rollbackTx();
+    @Transactional
+    public void createUporanmik(Uporabnik a) {
+        if (a != null) {
+            em.persist(a);
         }
-
-        return uporabnik;
     }
 
     public Uporabnik putUporabnik(String id, Uporabnik uporabnik) {
