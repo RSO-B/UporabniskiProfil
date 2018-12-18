@@ -15,6 +15,17 @@ public class AppProperties {
     @ConfigValue(watch = true)
     private boolean healthy;
 
+    @ConfigValue(watch = true)
+    private String urlAlbum;
+
+    public String getUrlAlbum() {
+        return urlAlbum;
+    }
+
+    public void setUrlAlbum(String urlAlbum) {
+        this.urlAlbum = urlAlbum;
+    }
+
     public boolean isHealthy() {
         return healthy;
     }

@@ -1,7 +1,10 @@
 package entities;
 
+import dtos.Album;
+
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
 @Entity(name = "uporabnik")
 @NamedQueries(value =
@@ -24,6 +27,15 @@ public class Uporabnik {
     @Column(name = "date_of_birth")
     private Date dateOfBirth;
 
+    private List<Album> albumList;
+
+    public List<Album> getAlbumList() {
+        return albumList;
+    }
+
+    public void setAlbumList(List<Album> albumList) {
+        this.albumList = albumList;
+    }
 
     public Integer getId() {
         return id;

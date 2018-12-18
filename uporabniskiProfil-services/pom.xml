@@ -38,12 +38,21 @@
             <version>2.1.1</version>
             <scope>compile</scope>
         </dependency>
-
+        <dependency>
+            <groupId>org.eclipse.microprofile.fault-tolerance</groupId>
+            <artifactId>microprofile-fault-tolerance-api</artifactId>
+            <version>1.0</version>
+        </dependency>
 
         <dependency>
             <groupId>si.fri.rso.UporabniskiProfil</groupId>
             <artifactId>uporabniskiProfil-model</artifactId>
             <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.7</version>
         </dependency>
     </dependencies>
 
