@@ -33,6 +33,10 @@
             <artifactId>kumuluzee-json-b-yasson</artifactId>
         </dependency>
         <dependency>
+            <artifactId>kumuluzee-logs-log4j2</artifactId>
+            <groupId>com.kumuluz.ee.logs</groupId>
+        </dependency>
+        <dependency>
             <groupId>si.fri.rso.UporabniskiProfil</groupId>
             <artifactId>uporabniskiProfil-services</artifactId>
             <version>1.0-SNAPSHOT</version>

@@ -1,6 +1,7 @@
 package v1.viri;
 
 import beans.UporabnikBeans;
+import com.kumuluz.ee.logs.cdi.Log;
 import com.kumuluz.ee.rest.beans.QueryParameters;
 import com.kumuluz.ee.rest.utils.JPAUtils;
 import entities.Uporabnik;
@@ -14,6 +15,7 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 import java.util.List;
 
+@Log
 @RequestScoped
 @Path("uporabniki")
 @Produces(MediaType.APPLICATION_JSON)
