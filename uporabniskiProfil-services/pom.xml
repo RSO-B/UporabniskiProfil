@@ -43,7 +43,10 @@
             <artifactId>microprofile-fault-tolerance-api</artifactId>
             <version>1.0</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.kumuluz.ee.metrics</groupId>
+            <artifactId>kumuluzee-metrics-core</artifactId>
+        </dependency>
         <dependency>
             <groupId>si.fri.rso.UporabniskiProfil</groupId>
             <artifactId>uporabniskiProfil-model</artifactId>

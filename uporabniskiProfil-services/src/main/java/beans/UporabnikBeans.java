@@ -10,6 +10,7 @@ import entities.Uporabnik;
 import org.eclipse.microprofile.faulttolerance.CircuitBreaker;
 import org.eclipse.microprofile.faulttolerance.Fallback;
 import org.eclipse.microprofile.faulttolerance.Timeout;
+import org.eclipse.microprofile.metrics.annotation.Timed;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
@@ -90,6 +91,7 @@ public class UporabnikBeans {
         return uporabnik;
     }
 
+    @Timed
     @CircuitBreaker(requestVolumeThreshold = 3)
     @Timeout(value = 2,unit = ChronoUnit.SECONDS)
     @Fallback(fallbackMethod = "getAlbumFallBack")

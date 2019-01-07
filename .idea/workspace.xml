@@ -2,156 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d30eeef-8dcc-48dd-adca-68f34b0e8fbe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7db9df31-fad3-409e-9fb1-1f1977cfa065/storage_v2/_src_/database/uporabniki.OMfIxw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7db9df31-fad3-409e-9fb1-1f1977cfa065/storage_v2/_src_/database/uporabniki.OMfIxw/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ceeee62-b6a7-438b-b3bf-93c3234092fe.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ceeee62-b6a7-438b-b3bf-93c3234092fe/storage_v2/_src_/database/uporabnik.UaOr7Q.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ceeee62-b6a7-438b-b3bf-93c3234092fe/storage_v2/_src_/database/uporabnik.UaOr7Q/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/uporabnik.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/uporabnik.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/src/main/resources/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/uporabniskiProfil-api/src/main/resources/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/META-INF/kumuluzee/boot-loader.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/com/kumuluz/ee/loader/EeBootLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/com/kumuluz/ee/loader/EeClassLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/com/kumuluz/ee/loader/exception/EeClassLoaderException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/com/kumuluz/ee/loader/jar/FileInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/com/kumuluz/ee/loader/jar/JarEntryInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/com/kumuluz/ee/loader/jar/JarFileInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/HikariCP-2.7.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/alpn-api-1.1.3.v20160715.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/aopalliance-repackaged-2.5.0-b42.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/asm-6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/asm-analysis-6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/asm-commons-6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/asm-tree-6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/cdi-api-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/commons-lang3-3.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/etcd4j-2.15.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/hk2-api-2.5.0-b42.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/hk2-locator-2.5.0-b42.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/hk2-utils-2.5.0-b42.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/http2-client-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/http2-common-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/http2-hpack-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/http2-http-client-transport-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/http2-server-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jackson-annotations-2.8.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jackson-core-2.8.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jackson-databind-2.8.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jackson-datatype-jdk8-2.8.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jackson-jaxrs-base-2.8.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jackson-jaxrs-json-provider-2.8.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jackson-module-afterburner-2.8.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jackson-module-jaxb-annotations-2.8.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/javassist-3.23.1-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/javax.el-api-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/javax.inject-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/javax.interceptor-api-1.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/javax.json-1.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/javax.json-api-1.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/javax.json.bind-api-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/javax.resource-api-1.7.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/javax.transaction-api-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/javax.ws.rs-api-2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jboss-annotations-api_1.3_spec-1.0.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jboss-classfilewriter-1.2.3.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jboss-transaction-spi-7.6.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jersey-cdi1x-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jersey-cdi1x-ban-custom-hk2-binding-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jersey-client-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jersey-common-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jersey-container-servlet-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jersey-container-servlet-core-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jersey-entity-filtering-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jersey-hk2-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jersey-jetty-connector-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jersey-media-jaxb-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jersey-media-json-binding-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jersey-media-json-jackson-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jersey-media-json-processing-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jersey-media-sse-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jersey-server-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jetty-alpn-client-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jetty-alpn-openjdk8-client-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jetty-alpn-openjdk8-server-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jetty-alpn-server-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jetty-annotations-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jetty-client-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jetty-http-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jetty-io-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jetty-jndi-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jetty-plus-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jetty-security-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jetty-server-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jetty-servlet-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jetty-util-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jetty-webapp-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jetty-xml-9.4.11.v20180605.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/json-flattener-0.4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/jsonp-jaxrs-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/kumuluzee-cdi-weld-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/kumuluzee-common-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/kumuluzee-config-common-1.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/kumuluzee-config-etcd-1.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/kumuluzee-core-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/kumuluzee-discovery-common-1.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/kumuluzee-discovery-etcd-1.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/kumuluzee-health-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/kumuluzee-jax-rs-jersey-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/kumuluzee-jpa-common-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/kumuluzee-jpa-eclipselink-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/kumuluzee-json-b-yasson-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/kumuluzee-json-p-jsonp-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/kumuluzee-jta-common-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/kumuluzee-jta-narayana-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/kumuluzee-rest-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/kumuluzee-servlet-jetty-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/microprofile-fault-tolerance-api-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/microprofile-health-api-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/minimal-json-0.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/narayana-jta-5.9.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/netty-buffer-4.1.20.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/netty-codec-4.1.20.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/netty-codec-dns-4.1.20.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/netty-codec-http-4.1.20.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/netty-common-4.1.20.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/netty-handler-4.1.20.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/netty-resolver-4.1.20.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/netty-resolver-dns-4.1.20.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/netty-transport-4.1.20.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/org.eclipse.persistence.antlr-2.7.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/org.eclipse.persistence.asm-2.7.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/org.eclipse.persistence.core-2.7.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/org.eclipse.persistence.jpa-2.7.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/org.eclipse.persistence.jpa.jpql-2.7.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/org.osgi.annotation.versioning-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/osgi-resource-locator-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/postgresql-42.2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/semver4j-2.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/snakeyaml-1.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/uporabniskiProfil-model-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/uporabniskiProfil-services-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/weld-api-3.0.SP4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/weld-core-impl-3.0.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/weld-environment-common-3.0.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/weld-jsf-3.0.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/weld-probe-core-3.0.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/weld-servlet-core-3.0.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/weld-spi-3.0.SP4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/weld-web-3.0.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-api/target/classes/lib/yasson-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/uporabniskiProfil-services/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uporabniskiProfil-services/src/main/java/beans/UporabnikBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/uporabniskiProfil-services/src/main/java/beans/UporabnikBeans.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/uporabniskiProfil-api/target/" />
     <ignored path="$PROJECT_DIR$/uporabniskiProfil-services/target/" />
@@ -173,28 +27,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
-          <entry key="xml" value="1" />
+          <entry key="java" value="3" />
+          <entry key="xml" value="2" />
           <entry key="yaml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
-          <entry key="XML" value="1" />
+          <entry key="JAVA" value="3" />
+          <entry key="XML" value="2" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7" />
-          <entry key="yaml" value="3" />
+          <entry key="java" value="8" />
+          <entry key="yaml" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7" />
-          <entry key="YAML" value="3" />
+          <entry key="JAVA" value="8" />
+          <entry key="YAML" value="22" />
         </counts>
       </usages-collector>
     </session>
@@ -204,15 +58,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255" />
+            <state relative-caret-position="-765" />
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uporabniskiProfil-api/src/main/resources/config.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="510">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -230,7 +84,25 @@
         <entry file="file://$PROJECT_DIR$/uporabniskiProfil-api/src/main/java/v1/viri/UporabnikResources.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uporabniskiProfil-services/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/uporabniskiProfil-services/src/main/java/beans/UporabnikBeans.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="93" column="10" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -244,6 +116,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/uporabniskiProfil-api/src/main/resources/config.yaml" />
+        <option value="$PROJECT_DIR$/uporabniskiProfil-services/pom.xml" />
+        <option value="$PROJECT_DIR$/uporabniskiProfil-services/src/main/java/beans/UporabnikBeans.java" />
       </list>
     </option>
   </component>
@@ -334,6 +208,30 @@
               <item name="uporabniskiProfil-services" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="rso-uporabniskiProfil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UporabniskiProfil" type="462c0819:PsiDirectoryNode" />
+              <item name="uporabniskiProfil-services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rso-uporabniskiProfil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UporabniskiProfil" type="462c0819:PsiDirectoryNode" />
+              <item name="uporabniskiProfil-services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rso-uporabniskiProfil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UporabniskiProfil" type="462c0819:PsiDirectoryNode" />
+              <item name="uporabniskiProfil-services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -378,12 +276,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546887313702</updated>
-      <workItem from="1546887315745" duration="305000" />
+      <workItem from="1546887315745" duration="948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305000" />
+    <option name="totallyTimeSpent" value="948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1293" height="1416" extended-state="0" />
@@ -395,7 +293,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28061637" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28061637" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" />
@@ -407,7 +305,7 @@
       <window_info anchor="bottom" content_ui="combo" id="My Scans" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32969603" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -432,11 +330,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uporabniskiProfil-api/src/main/java/v1/viri/UporabnikApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -447,14 +340,33 @@
     <entry file="file://$PROJECT_DIR$/uporabniskiProfil-api/src/main/java/v1/viri/UporabnikResources.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uporabniskiProfil-api/src/main/resources/config.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        <state relative-caret-position="510">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uporabniskiProfil-services/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uporabniskiProfil-services/src/main/java/beans/UporabnikBeans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="93" column="10" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
         </state>
       </provider>
     </entry>
