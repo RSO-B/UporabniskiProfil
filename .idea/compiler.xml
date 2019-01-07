@@ -9,9 +9,6 @@
         <module name="uporabniskiProfil-api" />
         <module name="uporabniskiProfil-model" />
         <module name="uporabniskiProfil-services" />
-        <module name="uporabniskiProfilapi" />
-        <module name="uporabniskiProfilmodel" />
-        <module name="uporabniskiProfilservices" />
       </profile>
     </annotationProcessing>
   </component>

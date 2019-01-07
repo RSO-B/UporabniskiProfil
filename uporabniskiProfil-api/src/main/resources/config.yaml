@@ -1,15 +1,16 @@
 kumuluzee:
   name: rso-uporabnik
+  env:
+    name: dev
   version: 1.0.0
   server:
     base-url: http://localhost:8082
     http:
       port: 8082
-  env:
-    name: dev
+
   datasources:
   - jndi-name: jdbc/uporabniki
-    connection-url: jdbc:postgresql://192.168.99.100:5431/uporabnik
+    connection-url: jdbc:postgresql://192.168.99.100:5432/postgres
     username: postgres
     password: postgres
     max-pool-size: 20
