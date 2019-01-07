@@ -25,3 +25,9 @@ kumuluzee:
       enabled: true
     healthy: true
     url-slike: http://localhost:8081
+  metrics:
+    web-instrumentation:
+    - name: uporabnik-endpoint
+      url-pattern: /v1/uporabnik/*
+    servlet:
+      enabled: true
